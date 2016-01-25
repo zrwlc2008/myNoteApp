@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13F1134" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell_id" rowHeight="108" id="Wvf-lY-dJQ" customClass="NoteTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wvf-lY-dJQ" id="ztr-tS-3AE">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="youdao_note_24px.png" translatesAutoresizingMaskIntoConstraints="NO" id="9A3-cS-ACH" userLabel="Icon">
+                        <rect key="frame" x="8" y="8" width="16" height="16"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="ssd-5J-qN6"/>
+                            <constraint firstAttribute="width" constant="16" id="znz-Re-bae"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czf-ws-25r" userLabel="标题">
+                        <rect key="frame" x="32" y="8" width="358" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="382" translatesAutoresizingMaskIntoConstraints="NO" id="noa-Jy-9bG" userLabel="内容">
+                        <rect key="frame" x="8" y="29" width="382" height="40"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-01-10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcN-0W-uYo" userLabel="日期">
+                        <rect key="frame" x="8" y="74" width="75" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="NqW-dN-fV0"/>
+                            <constraint firstAttribute="width" constant="75" id="VGf-i9-OXc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="属于:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxR-Eg-DnF" userLabel="属于">
+                        <rect key="frame" x="91" y="74" width="30" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="VGu-bn-0mD"/>
+                            <constraint firstAttribute="width" constant="30" id="Zv4-a0-dzE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分类分类" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qP-HJ-tyj" userLabel="分类">
+                        <rect key="frame" x="129" y="74" width="261" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="8D3-qE-Loa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5qP-HJ-tyj" firstAttribute="trailing" secondItem="ztr-tS-3AE" secondAttribute="trailing" constant="-10" id="0Bf-hb-RDD"/>
+                    <constraint firstItem="noa-Jy-9bG" firstAttribute="bottom" secondItem="dcN-0W-uYo" secondAttribute="top" constant="-5" id="7Wd-Nv-jgl" userLabel="Vertical Space - (-8) - 内容 - 日期 (bottom)"/>
+                    <constraint firstItem="9A3-cS-ACH" firstAttribute="leading" secondItem="ztr-tS-3AE" secondAttribute="leading" constant="8" id="873-SD-jxV" userLabel="Horizontal Space - (8) - Icon - Content View (left)"/>
+                    <constraint firstItem="Czf-ws-25r" firstAttribute="trailing" secondItem="ztr-tS-3AE" secondAttribute="trailing" constant="-10" id="8YG-TW-zLV"/>
+                    <constraint firstItem="5qP-HJ-tyj" firstAttribute="bottom" secondItem="wxR-Eg-DnF" secondAttribute="bottom" id="FvB-8m-fyI"/>
+                    <constraint firstItem="wxR-Eg-DnF" firstAttribute="bottom" secondItem="dcN-0W-uYo" secondAttribute="bottom" id="Hmx-6b-I24"/>
+                    <constraint firstItem="wxR-Eg-DnF" firstAttribute="leading" secondItem="dcN-0W-uYo" secondAttribute="trailing" constant="8" id="JN6-iP-fXt" userLabel="Horizontal Space - (8) - 属于 - 日期 (left)"/>
+                    <constraint firstItem="noa-Jy-9bG" firstAttribute="top" secondItem="9A3-cS-ACH" secondAttribute="bottom" constant="5" id="Qw1-Zt-0kZ" userLabel="Vertical Space - (8) - 内容 - Icon (top)"/>
+                    <constraint firstItem="noa-Jy-9bG" firstAttribute="trailing" secondItem="ztr-tS-3AE" secondAttribute="trailing" constant="-10" id="TEJ-4F-fe5"/>
+                    <constraint firstItem="noa-Jy-9bG" firstAttribute="leading" secondItem="9A3-cS-ACH" secondAttribute="leading" id="Vll-OO-AtH"/>
+                    <constraint firstItem="5qP-HJ-tyj" firstAttribute="leading" secondItem="wxR-Eg-DnF" secondAttribute="trailing" constant="8" id="bOO-a9-7AX" userLabel="Horizontal Space - (8) - 分类 - 属于 (left)"/>
+                    <constraint firstItem="dcN-0W-uYo" firstAttribute="leading" secondItem="9A3-cS-ACH" secondAttribute="leading" id="lks-D2-89q"/>
+                    <constraint firstItem="Czf-ws-25r" firstAttribute="leading" secondItem="9A3-cS-ACH" secondAttribute="trailing" constant="8" id="mqI-9F-Ujq"/>
+                    <constraint firstItem="9A3-cS-ACH" firstAttribute="top" secondItem="ztr-tS-3AE" secondAttribute="top" constant="8" id="nhn-e7-6V7" userLabel="Vertical Space - (8) - Icon - Content View (top)"/>
+                    <constraint firstItem="dcN-0W-uYo" firstAttribute="bottom" secondItem="ztr-tS-3AE" secondAttribute="bottom" constant="-5" id="rUf-WH-icY" userLabel="Vertical Space - (-5) - 日期 - Content View (bottom)"/>
+                    <constraint firstItem="Czf-ws-25r" firstAttribute="top" secondItem="9A3-cS-ACH" secondAttribute="top" id="ri6-bD-SZs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="noteBelongLabel" destination="wxR-Eg-DnF" id="ojx-G3-pwA"/>
+                <outlet property="noteContentLabel" destination="noa-Jy-9bG" id="SPn-go-pjX"/>
+                <outlet property="noteCreateDatetimeLabel" destination="dcN-0W-uYo" id="9yr-ZD-42y"/>
+                <outlet property="noteDirectoryNameLabel" destination="5qP-HJ-tyj" id="EJ6-6w-K8X"/>
+                <outlet property="noteTitleLabel" destination="Czf-ws-25r" id="br3-jK-bvx"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="youdao_note_24px.png" width="24" height="24"/>
+    </resources>
+</document>

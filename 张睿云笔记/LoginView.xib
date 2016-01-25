@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13F1134" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="btnLogin" destination="LaQ-Je-YLb" id="pSE-zU-ZPe"/>
+                <outlet property="btnRegister" destination="EXf-7L-lkV" id="o5y-c0-ps1"/>
+                <outlet property="textPassword" destination="e7I-ja-1z0" id="xZD-0x-fsK"/>
+                <outlet property="textUsername" destination="gEX-ox-39f" id="ZKC-SC-MbC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gEX-ox-39f" userLabel="Text - 用户名">
+                    <rect key="frame" x="30" y="100" width="260" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e7I-ja-1z0" userLabel="Text - 密码">
+                    <rect key="frame" x="30" y="150" width="260" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LaQ-Je-YLb">
+                    <rect key="frame" x="30" y="200" width="260" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.19636165087441429" green="0.73091457201086962" blue="0.10249099445412589" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="登录">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXf-7L-lkV">
+                    <rect key="frame" x="30" y="250" width="260" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.22933513729999999" green="0.71995517899999995" blue="0.90351137910000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="注册">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@我的云笔记" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7J-e0-Vec">
+                    <rect key="frame" x="30" y="517" width="260" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="LaQ-Je-YLb" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" constant="-30" id="6ju-dK-4np"/>
+                <constraint firstItem="EXf-7L-lkV" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" constant="-30" id="Fpf-tt-C9g"/>
+                <constraint firstItem="F7J-e0-Vec" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="HYp-uG-wyV"/>
+                <constraint firstItem="EXf-7L-lkV" firstAttribute="top" secondItem="LaQ-Je-YLb" secondAttribute="bottom" constant="20" id="Mo0-ot-uCX"/>
+                <constraint firstItem="LaQ-Je-YLb" firstAttribute="top" secondItem="e7I-ja-1z0" secondAttribute="bottom" constant="20" id="Pvz-nC-L4O"/>
+                <constraint firstItem="gEX-ox-39f" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" constant="-30" id="VEt-mV-cEx"/>
+                <constraint firstItem="e7I-ja-1z0" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" constant="-30" id="VMr-aK-Dwt"/>
+                <constraint firstItem="LaQ-Je-YLb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="XqJ-CK-Tjx"/>
+                <constraint firstItem="e7I-ja-1z0" firstAttribute="top" secondItem="gEX-ox-39f" secondAttribute="bottom" constant="20" id="Yqg-vO-kIf"/>
+                <constraint firstItem="gEX-ox-39f" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="b8J-QT-i0j"/>
+                <constraint firstItem="gEX-ox-39f" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="bzU-0b-ANb"/>
+                <constraint firstItem="e7I-ja-1z0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="njv-9s-baU"/>
+                <constraint firstAttribute="bottom" secondItem="F7J-e0-Vec" secondAttribute="bottom" constant="30" id="rZV-Jm-V2L"/>
+                <constraint firstItem="EXf-7L-lkV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="tFp-I7-9IG"/>
+                <constraint firstItem="F7J-e0-Vec" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" constant="-30" id="u8y-Py-RRD"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

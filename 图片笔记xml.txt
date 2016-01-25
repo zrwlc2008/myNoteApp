@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<item>
+<imageId>111</imageId>
+<pictureNote>asdfasdfasdfasdfsadfsadfasdfasdf</pictureNote>
+<imageName>http://172.16.10.2:8080/noteimage/11421/noteimg_11421_111.png</imageName>
+<imageMd5>11c94c671accbb86f28e02874a97a2bc</imageMd5>
+</item>
+</root>
